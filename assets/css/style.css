@@ -54,3 +54,14 @@ h1, h2 {
 
 .active {
     border-bottom: 1px solid #3a3a3a;
+}
+
+/* hero image */
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background-image: url('../images/hero-image.webp') /* no-repeat center center*/;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
