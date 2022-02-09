@@ -281,3 +281,15 @@ footer {
 #photos > img {
     width: 100%; /* this resizes each image to fit within the 4 x colum-count we specified above */ 
 }
+
+/* Media Queries */
+/* For larger ro medium screen sizes from 1200px wide and down */
+
+@media screen and (max-width: 1200px) {
+    #club-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+
+    }
+}
