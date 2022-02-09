@@ -75,8 +75,34 @@ h1, h2 {
     height: 600px;
     width: 100%;
     overflow: hidden;
+
+    /* to enact the position of the red cover-text feature relative to the entire hero outer section */
+    position: relative;
 }
 
+#cover-text, #cover-text h2 {
+    color: #fff;
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(241, 109, 107, .7);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
 /* creates the level of zoom for hero image */
 
 @keyframes hero-zoom {
@@ -87,3 +113,4 @@ h1, h2 {
         transform: scale(1.1);
     }
 }
+
