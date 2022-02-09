@@ -268,3 +268,16 @@ footer {
     padding: 5%;
     color: #3a3a3a;
 }
+
+/* 4 x column gallery styling */
+
+#photos {
+    clear: both; /* so the photos display below the header */
+    line-height: 1px;/* to remove horizontal gaps between the imaged */
+    column-count: 4; /*the SECRET TO GALLERY TILE DISPLAYS!! */
+    column-gap: 1px;
+}
+
+#photos > img {
+    width: 100%; /* this resizes each image to fit within the 4 x colum-count we specified above */ 
+}
