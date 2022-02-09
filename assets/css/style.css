@@ -29,7 +29,7 @@ h1, h2 {
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
-    display: flex;
+    /* display: flex; */
     float: right;
 }
 
@@ -39,9 +39,10 @@ h1, h2 {
 
 #menu li {
     /* float: right; */
-    list-style-type: none;
+    /* list-style-type: none; */
     margin-right: 30px;
     /* margin-top:20px; */
+    display: inline;
 }
 
 #menu a {
@@ -244,4 +245,26 @@ hr {
 
 #times h2 {
     color: #fafafa;
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+/* how we get the list items to display inline */
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
