@@ -96,7 +96,7 @@ h1, h2 {
     height: 200px;
 
     padding-top: 40px;
-    padding-left: 10px;
+    padding-left: 20px;
 
     background-color: rgba(241, 109, 107, .7);
 
@@ -323,5 +323,29 @@ footer {
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
+    }
+
+    #cover-text {
+        left: 0;
+    }
+
+    #club-ethos {
+        width: 90%; /* this is for mobile devices */
+        height: 1200px;
+        margin: 0 auto; /* to center the entire section */
+    }
+
+    .left-about-heading, .right-about-heading {
+        width: inherit; /* width inherited from parent sectoin "club ethos" */
+    }
+
+    .left-about-heading h2, .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p, .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
     }
 }
